@@ -2,7 +2,7 @@ cask "keytos-connect" do
   version "1.0.17"                       # bump per release (matches deploy.yml input)
   sha256 "aa8066423b360a7d07dc13fd74008bde048a37969939afc657b66296576a83bf"
 
-  url "https://download.keytos.io/keytos-connect/main/Apple/KeytosConnect.dmg"
+  url "https://download.keytos.io/keytos-connect/main/Apple/KeytosConnect-#{version}.dmg"
   name "Keytos Connect"
   desc "Keytos Connect client"
   homepage "https://www.keytos.io/"
