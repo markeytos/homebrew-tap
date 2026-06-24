@@ -7,7 +7,7 @@ cask "keytos-connect" do
   desc "Keytos Connect client"
   homepage "https://www.keytos.io/"
 
-  depends_on macos: ">= :ventura"        # product_definition.plist sets min macOS 13.0
+  depends_on macos: :ventura        # product_definition.plist sets min macOS 13.0
 
   app "Keytos Connect.app"               # CFBundleName / app bundle inside the DMG
 
